@@ -6,35 +6,35 @@ describe Sinderella do
     
   describe '.transforms(data, till_midnight)' do
     it 'returns a hash of the passed data' do
-      pending
+      skip
     end
 
     it 'stores original and transformed data' do
-      pending
+      skip
     end
 
     it 'restores the data to its original state after set time' do
-      pending
+      skip
     end
   end
 
   describe '.get(id)' do
     context 'before midnight (before time expired)' do
       it 'returns transformed data' do
-        pending
+        skip
       end
     end
 
     context 'past midnight (after time expired)' do
       it 'returns original data' do
-        pending
+        skip
       end
     end
   end
 
   describe '.midnight(id)' do
     it 'restores the data to its original state' do
-      pending
+      skip
     end
   end
 end
